@@ -1,0 +1,31 @@
+{
+  "name": "example-json-actions",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "babel": {
+    "plugins": [
+      "transform-decorators-legacy"
+    ],
+    "presets": [
+      "stage-0"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meboHQ/example-json-actions.git"
+  },
+  "author": "Paulo Nogueira <paulondc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mebo": "*",
+    "morgan": "*"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "*",
+    "babel-preset-stage-0": "*",
+    "babel-register": "*"
+  }
+}

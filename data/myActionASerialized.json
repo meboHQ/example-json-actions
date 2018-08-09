@@ -1,0 +1,16 @@
+{
+  "id": {},
+  "inputs": {
+    "message": "Hello World!",
+    "repeat": "5"
+  },
+  "metadata": {
+    "action": {
+      "name": "myactiona",
+      "origin": "topLevel"
+    }
+  },
+  "session": {
+    "autofill": {}
+  }
+}
