@@ -13,3 +13,4 @@ class MyActionB extends Mebo.Action{
   }
 }
 
+module.exports = MyActionB;
