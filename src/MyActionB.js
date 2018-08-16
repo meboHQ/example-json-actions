@@ -8,8 +8,8 @@ class MyActionB extends Mebo.Action{
     this.createInput('y: numeric');
   }
 
-  _perform(data){
-    return Promise.resolve(data.x + data.y);
+  async _perform(data){
+    return data.x + data.y;
   }
 }
 
