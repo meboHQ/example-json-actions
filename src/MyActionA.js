@@ -8,9 +8,9 @@ class MyActionA extends Mebo.Action{
     this.createInput('repeat: numeric', {defaultValue: 10});
   }
 
-  _perform(data){
+  async _perform(data){
     const result = data.message.repeat(data.repeat);
-    return Promise.resolve(result);
+    return result;
   }
 }
 
